@@ -17,11 +17,11 @@ def create_savings_account(balance,interest,months):
     my_account=Account(balance,interest)
     #printing intitial balance information
     print(f"Your Savings account details:")
-    print("-"*42)
+    print("-"*50)
     print(f"Starting balance: ${my_account.balance:,.2f}")
     print(f"APR: {interest:.2f}%")
     print(f"Months: {months}")
-    print("-"*42)
+    print("-"*50)
     #performing calculations and storing as variables
     earned_interest = balance * (interest / 100 * months / 12)
     updated_balance = balance+earned_interest
@@ -31,6 +31,6 @@ def create_savings_account(balance,interest,months):
     #printing the information for the user
     print(f"Earned interest on ${balance:,.2f} after {months} months: ${my_account.interest:,.2f}")
     print(f"Your new balance is ${my_account.balance:,.2f}")
-    print("~"*42)
+    print("~"*50)
     #returning account instance for input function
     return my_account
