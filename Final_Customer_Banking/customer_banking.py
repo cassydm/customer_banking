@@ -30,7 +30,7 @@ def main():
 
     #Calculating totals
     print("TOTAL")
-    print("-"*42)
+    print("-"*50)
     total_balance=my_account.balance+my_cd.balance
     total_interest=my_account.interest+my_cd.interest
     print(f"At the end of the CD and Savings Account durations,\n"
