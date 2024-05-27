@@ -15,6 +15,3 @@ class Account:
     def set_interest(self, interest):
         """Sets the interest gained for the the account"""
         self.interest = interest
-    def update_interest(self, earned_interest):
-        self.balance+=earned_interest
-  
