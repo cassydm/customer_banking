@@ -31,6 +31,6 @@ def create_savings_account(balance,interest,months):
     #printing the information for the user
     print(f"Earned interest on ${balance:,.2f} after {months} months: ${my_account.interest:,.2f}")
     print(f"Your new balance is ${my_account.balance:,.2f}")
-    print("-"*42)
+    print("~"*42)
     #returning account instance for input function
     return my_account
